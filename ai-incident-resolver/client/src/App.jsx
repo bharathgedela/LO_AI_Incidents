@@ -67,6 +67,13 @@ function App() {
 
         {result && (
           <div className="results-container">
+            <section className="ai-recommendation">
+              <h2>🤖 AI-Generated Recommended Resolution</h2>
+              <div className="markdown-content">
+                <ReactMarkdown>{result.aiRecommendation}</ReactMarkdown>
+              </div>
+            </section>
+
             <section className="similar-incidents">
               <h2>🧩 Top Similar Incidents</h2>
               {result.similarIncidents && result.similarIncidents.length > 0 ? (
@@ -95,13 +102,6 @@ function App() {
               ) : (
                 <p className="no-data">No relevant historical incidents found.</p>
               )}
-            </section>
-
-            <section className="ai-recommendation">
-              <h2>🤖 AI-Generated Recommended Resolution</h2>
-              <div className="markdown-content">
-                <ReactMarkdown>{result.aiRecommendation}</ReactMarkdown>
-              </div>
             </section>
           </div>
         )}
