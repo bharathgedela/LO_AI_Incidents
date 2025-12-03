@@ -1,0 +1,1500 @@
+"INC-1000","2025-08-07 03:17:09.007519","Glue ETL failed – schema drift detected","Officer positive suddenly military president reveal growth. Peace public Congress clearly. Person character involve understand whatever sense value.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1001","2025-06-03 07:17:42.790422","API Gateway timeout – downstream Lambda exceeded execution limit","Like often buy believe next much image. News everyone color outside traditional.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1002","2025-09-19 17:50:33.990005","API Gateway timeout – downstream Lambda exceeded execution limit","Tell nothing ahead. Fast land question bag fund those leave sing.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1003","2025-10-27 00:53:08.871080","Snowpipe ingestion failed – invalid JSON payload","Miss everybody into remain chair. Have fire force by condition carry. Well about kind scientist cold light.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1004","2025-11-08 22:36:13.579803","API Gateway timeout – downstream Lambda exceeded execution limit","Nice always here day accept production. Be PM view officer next east visit production. Box different light eye. Suddenly require action those.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1005","2025-06-13 10:28:48.891012","Batch ingestion failed – corrupted ORC file","Nature line agree. Age reason law piece message chair give.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1006","2025-10-27 00:18:39.660131","API Gateway timeout – downstream Lambda exceeded execution limit","Simple listen paper. Loss source research probably.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1007","2025-04-03 16:12:11.348864","Snowpipe ingestion failed – invalid JSON payload","Read both couple student well specific popular conference. Force soon air network so.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1008","2025-02-18 00:27:32.881571","ETL load failed – missing upstream file in S3","Line political wish. Up indeed deal must likely pretty. Administration cup enough factor again amount develop trade.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1009","2025-06-25 12:40:48.840204","Snowpipe ingestion failed – invalid JSON payload","Serious Mr certainly court road paper television. Become now huge next drug. Offer positive your information themselves spend general.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1010","2025-05-20 11:38:28.559677","Snowpipe ingestion failed – invalid JSON payload","Probably federal picture against want surface financial with. School land yeah board television. Opportunity simply of prevent life while.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1011","2025-04-06 11:54:03.189999","Data quality check failed – nulls found in mandatory field","Leg agency yard newspaper. Spend country wait that food like.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1012","2025-02-23 05:58:24.101810","Glue ETL failed – schema drift detected","Protect crime beat know. Name partner professor reality magazine. Final blood court hit sing.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1013","2025-02-28 03:43:10.761243","Batch ingestion failed – corrupted ORC file","Reflect between step open rock trip song response. Save serious protect general movie represent someone unit. Return bad camera.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1014","2025-01-27 18:09:12.054389","Data quality check failed – nulls found in mandatory field","Discuss movement inside tough. Them age across beyond spend sound group thing.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1015","2025-11-15 00:49:22.126816","ETL load failed – missing upstream file in S3","Soon I partner physical man leg. Network television if other economic support close. Wait add question medical put hospital store second.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1016","2025-04-06 19:05:38.530051","AWS Glue job failed – executor memory overflow","Identify mean media win her. Reveal majority city material forget.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1017","2025-06-22 08:10:23.990939","API Gateway timeout – downstream Lambda exceeded execution limit","Girl live with environment. Listen budget a pay key although factor. Popular page set onto. Do behind example cause several soldier.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1018","2025-04-12 09:52:53.109597","Database load failed – transaction deadlock encountered","Public customer energy suffer behavior possible college.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1019","2025-09-13 05:52:02.699226","Database load failed – transaction deadlock encountered","Few keep say style party blood number. Spend book because magazine our guess catch.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1020","2025-06-22 17:44:49.833227","Database load failed – transaction deadlock encountered","Day four half fine concern. Figure position across explain fear. Seek very tonight result show.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1021","2025-08-06 14:36:27.125715","Data quality check failed – nulls found in mandatory field","Month north mother act rise suffer general. Structure miss your style resource trouble. General send yeah party own so might her. Firm contain but shoulder physical movement.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1022","2025-04-05 14:05:41.400609","Batch ingestion failed – corrupted ORC file","Radio series article save entire. High television natural group north they security role.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1023","2025-10-06 00:27:23.596254","ETL load failed – missing upstream file in S3","Better kitchen fund career girl phone. Number hard letter during. Site window move happen attorney community.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1024","2025-08-24 05:26:50.390637","Snowflake copy into failed – corrupted parquet file","Lose although customer heavy design never. Hope discuss decision old. Animal speech house few doctor right.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1025","2025-01-28 13:24:25.362270","Snowpipe ingestion failed – invalid JSON payload","Stay after third. Image since manager sport answer.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1026","2025-08-29 13:06:29.909521","Batch ingestion failed – corrupted ORC file","Where statement friend front section. Blue follow sport reflect room culture test. Daughter leader paper account Congress hear.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1027","2025-05-16 09:59:11.319658","Glue ETL failed – schema drift detected","Degree since six light. Decide shoulder investment good beyond wonder drug half. Control far face year.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1028","2025-07-19 10:31:06.218516","Snowpipe ingestion failed – invalid JSON payload","Quite weight next material.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1029","2025-04-18 11:07:37.368750","Glue ETL failed – schema drift detected","Chair off yourself billion. Remain stage who style card. Hear share traditional act human son process.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1030","2025-04-12 14:25:26.536487","Glue ETL failed – schema drift detected","Somebody our financial bring listen. Blood son after exactly none prove. Message office right skin they open. Maintain behavior dinner almost.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1031","2025-06-30 04:27:31.247185","Batch ingestion failed – corrupted ORC file","Never score rather might for perhaps though. Already finish Democrat current me and class what. Receive amount time ok.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1032","2025-01-27 08:26:00.113053","Snowpipe ingestion failed – invalid JSON payload","Show matter heavy traditional mouth medical travel. Myself skill assume answer they son.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1033","2025-05-01 21:01:41.722982","Snowflake copy into failed – corrupted parquet file","Enough law democratic it because. Must family main allow line group adult seek.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1034","2025-12-01 03:50:45.864926","Snowflake copy into failed – corrupted parquet file","Again magazine week remain lay. Sometimes certainly sense form raise politics choose.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1035","2025-02-15 00:39:31.471148","Database load failed – transaction deadlock encountered","Peace current voice loss enter series reflect. Treatment next despite staff statement know. Draw house blue sort skin customer.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1036","2025-07-09 12:59:23.024219","Batch ingestion failed – corrupted ORC file","Really score there control church. Contain edge poor.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1037","2025-01-30 08:09:24.143555","ETL load failed – missing upstream file in S3","Time couple perhaps expert agreement usually during. Recognize operation very issue main suffer find former.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1038","2025-10-15 07:46:56.633258","AWS Glue job failed – executor memory overflow","Fund sister yes wall hair thing yard. Weight establish conference security strategy still. Artist decade evening collection behavior.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1039","2025-01-22 14:57:04.980623","API Gateway timeout – downstream Lambda exceeded execution limit","Everybody identify partner. Knowledge himself would thousand with. Small bank office be.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1040","2025-09-30 04:17:31.694275","Batch ingestion failed – corrupted ORC file","Across nothing remember. Design attorney account red when entire their people. Building few enough offer begin.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1041","2025-02-04 02:20:46.854333","ETL load failed – missing upstream file in S3","Prepare strategy sell message film. Little truth west watch policy indeed have clearly.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1042","2025-04-29 14:16:20.707810","AWS Glue job failed – executor memory overflow","Language education result guess resource too. View owner stuff those. Move toward or gas city surface level.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1043","2025-06-08 12:35:34.269939","AWS Glue job failed – executor memory overflow","Court born purpose above agent. Main open money imagine too store.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1044","2025-04-02 16:01:49.920231","Snowpipe ingestion failed – invalid JSON payload","College particular any expect nature about. Future today provide rise fast these open. Fly prove level remain different sister somebody.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1045","2025-07-10 20:54:30.338940","Batch ingestion failed – corrupted ORC file","Fine matter simple quite drug investment raise. Politics science throw happen. Whole report individual sit here seem expect impact.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1046","2025-08-06 10:10:49.562306","ETL load failed – missing upstream file in S3","Scientist they boy bed seek. Ball research clear ten modern food off. Station accept perhaps figure series this.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1047","2025-10-28 07:11:37.045482","Data quality check failed – nulls found in mandatory field","Product southern recent let case green investment.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1048","2025-09-23 12:46:23.459344","Database load failed – transaction deadlock encountered","Away find feeling guy return center. Our choice lawyer wall hold reveal medical. They help whatever political population yeah in. Discussion cut bar customer employee hot.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1049","2025-08-08 17:18:56.240025","AWS Glue job failed – executor memory overflow","International whom I focus pressure find. Guy physical trial gun. Want most some picture environment.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1050","2025-07-09 14:49:43.355475","Data quality check failed – nulls found in mandatory field","Put garden team piece rate act girl. What understand personal where build whole agent Congress. Republican same later also light. Allow lose service science my forget value you.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1051","2025-10-22 16:55:19.019034","API call failed – invalid authentication token","Mention level want already college paper. Nature many develop conference company.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1052","2025-06-17 23:34:27.745089","API call failed – invalid authentication token","Lawyer authority might west. Discussion their table piece else citizen before. Voice wife region group help account.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1053","2025-07-18 18:14:16.325985","Batch ingestion failed – corrupted ORC file","Particularly sound relate player. Red family clearly road money. Son blue nothing theory approach keep.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1054","2025-01-20 05:55:54.285183","Snowpipe ingestion failed – invalid JSON payload","Yes see price central. Foreign begin from side follow thus.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1055","2025-10-15 23:07:59.038408","Snowflake copy into failed – corrupted parquet file","Win although offer certainly fine. Yard investment staff add none. Wonder person fact assume drop over little. Commercial number any other.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1056","2025-01-03 01:23:01.119815","Snowpipe ingestion failed – invalid JSON payload","Reduce sit guess continue save professor pass or. Across but group end attention health enter. Number mean third oil teacher find. Write ten song court compare left ability clearly.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1057","2025-08-06 22:28:17.585224","API call failed – invalid authentication token","Manage from watch choice million success speak. Every agency again prove. Still employee accept involve trial want.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1058","2025-10-14 15:27:58.213708","Data quality check failed – nulls found in mandatory field","Understand weight morning development. Nothing focus only could make letter growth. Son body across magazine.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1059","2025-05-26 22:21:47.068721","Database load failed – transaction deadlock encountered","Yeah serious project various. Certain and live future population always hotel. Himself tend ever ago.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1060","2025-07-22 16:40:50.260578","API Gateway timeout – downstream Lambda exceeded execution limit","Pick paper check defense stage hit if of. Product plant become personal most. Manager seem reality.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1061","2025-01-05 11:24:34.805218","Batch ingestion failed – corrupted ORC file","Bag activity woman worker again indicate.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1062","2025-11-05 19:26:30.350652","API call failed – invalid authentication token","These current attorney chair me radio program option. People voice TV development manage policy.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1063","2025-08-25 04:45:05.118193","Data quality check failed – nulls found in mandatory field","Science think hospital during attorney situation. Policy national worry traditional notice prepare range.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1064","2025-04-09 11:14:26.528569","ETL load failed – missing upstream file in S3","Modern author five treatment mention language none. Senior scene color other. Fall such group leg.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1065","2025-04-18 09:13:02.147902","Data quality check failed – nulls found in mandatory field","Line resource middle fire. To democratic choice modern dream.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1066","2025-07-06 14:15:23.142884","Database load failed – transaction deadlock encountered","Area safe dinner bag set little.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1067","2025-10-05 16:58:13.143092","API Gateway timeout – downstream Lambda exceeded execution limit","Beautiful no size new level behind mention.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1068","2025-05-03 22:29:13.439768","Snowflake copy into failed – corrupted parquet file","Staff guess adult reduce source inside process. Build choice a fast arm explain our. Blue future no people send that maybe follow.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1069","2025-05-23 21:22:18.165930","Database load failed – transaction deadlock encountered","Start pass than key write. Born next sort toward remain. Off sometimes site factor.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1070","2025-09-03 22:04:35.132576","API Gateway timeout – downstream Lambda exceeded execution limit","Better give different both leader organization question. Exist car chance fast.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1071","2025-11-06 16:51:00.778252","Data quality check failed – nulls found in mandatory field","Area data city through college different.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1072","2025-01-13 16:27:28.147673","Snowflake copy into failed – corrupted parquet file","Mouth not here perhaps fine beautiful.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1073","2025-06-03 00:04:28.086947","AWS Glue job failed – executor memory overflow","Spring chair point movie plan listen cold too. Light crime bag exactly represent reduce whom. Player like character serious step thus.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1074","2025-07-24 13:01:50.224982","Database load failed – transaction deadlock encountered","Mouth oil hand region great actually. Mother attorney try whose.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1075","2025-06-06 14:29:12.535565","Snowpipe ingestion failed – invalid JSON payload","How remain occur ahead. Someone teach cut miss send.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1076","2025-05-23 12:28:24.481383","Database load failed – transaction deadlock encountered","Year industry affect. Financial expect project democratic treatment. Include threat life image group deep course.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1077","2025-06-02 13:04:43.450092","AWS Glue job failed – executor memory overflow","Be understand mouth enjoy life. One catch garden factor check share impact.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1078","2025-01-14 23:28:30.614162","API Gateway timeout – downstream Lambda exceeded execution limit","Exist true audience rich three tonight. Near law choose week big.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1079","2025-11-25 12:12:31.460801","Data quality check failed – nulls found in mandatory field","Run challenge book friend half occur conference lead.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1080","2025-03-06 01:55:08.681781","API call failed – invalid authentication token","Remember production black. Soon property house alone window amount.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1081","2025-01-04 12:37:53.655146","API Gateway timeout – downstream Lambda exceeded execution limit","Beat situation thought themselves. Simply speak apply project.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1082","2025-06-22 07:52:47.947467","API Gateway timeout – downstream Lambda exceeded execution limit","Later group hotel imagine significant.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1083","2025-08-28 03:30:28.538003","Snowpipe ingestion failed – invalid JSON payload","Brother science other rate yet. Course happen third executive do just network. He their rate all nothing child star.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1084","2025-06-22 02:41:50.733261","Glue ETL failed – schema drift detected","Hospital writer to stuff. Several media again loss according. Phone leg strong.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1085","2025-06-15 19:11:44.118783","Batch ingestion failed – corrupted ORC file","Speech where represent light easy. Important view prepare between four focus there. Account issue card movement woman expect.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1086","2025-01-02 20:42:22.796221","API call failed – invalid authentication token","During number something discover. Their music feel single site left. Third leg still sit letter success under.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1087","2025-01-27 20:47:50.855848","Snowflake copy into failed – corrupted parquet file","Magazine space opportunity nor you piece. Within man someone whether lot key. Book before middle everything. Hope film present kitchen.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1088","2025-02-25 18:51:04.946998","Snowflake copy into failed – corrupted parquet file","Process on want necessary business thought relationship. Body resource candidate affect never figure.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1089","2025-11-13 21:23:44.740444","AWS Glue job failed – executor memory overflow","Number successful her baby south rather establish. Discuss deep second war safe. Another him each life today majority yard.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1090","2025-02-13 08:24:25.157035","Snowflake copy into failed – corrupted parquet file","Long race order what most. Rather movie value current.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1091","2025-08-19 12:38:08.513506","AWS Glue job failed – executor memory overflow","Now bad fine everybody. Could process author training choice hard they. Often whom serve.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1092","2025-10-06 17:40:55.161523","Snowpipe ingestion failed – invalid JSON payload","Seem federal get population try in. Onto of peace.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1093","2025-04-05 00:25:00.091401","API call failed – invalid authentication token","Sea ground enter issue. Push occur Mrs.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1094","2025-04-07 03:12:27.766557","Batch ingestion failed – corrupted ORC file","Career by member senior more. Current which they child.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1095","2025-08-08 17:57:28.375499","Database load failed – transaction deadlock encountered","Republican away consumer show environmental. Up this heart serve trip.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1096","2025-02-06 19:45:07.722881","Snowflake copy into failed – corrupted parquet file","Son full happen. Range practice under see police economic memory follow. Wall drive actually enough bank.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1097","2025-05-25 11:19:12.386018","ETL load failed – missing upstream file in S3","Between feeling power nearly. They south industry seven operation support throw help. Cup yeah their manage however side.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1098","2025-09-10 12:16:39.620658","Glue ETL failed – schema drift detected","Up magazine real tonight decide. Successful may central.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1099","2025-03-27 04:57:32.507789","Batch ingestion failed – corrupted ORC file","Major nature however education operation pretty box boy. Would million already someone maintain pattern field.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1100","2025-12-01 16:14:59.543204","Data quality check failed – nulls found in mandatory field","Character surface technology either office herself. Our blue skin save many police.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1101","2025-04-02 03:46:48.167078","ETL load failed – missing upstream file in S3","Every six writer customer gas our cold. Who ready beautiful sort day air. Make necessary ahead worker trial information man.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1102","2025-06-16 10:17:56.467507","Database load failed – transaction deadlock encountered","While statement medical family. Dog main huge matter thank south.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1103","2025-02-24 20:22:49.425788","ETL load failed – missing upstream file in S3","Power development Democrat environment. Use get my free.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1104","2025-07-28 16:09:32.907914","Snowpipe ingestion failed – invalid JSON payload","Expert civil floor carry perhaps material treatment. Ago recent student like.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1105","2025-07-29 23:35:22.445761","Snowpipe ingestion failed – invalid JSON payload","Movie agency detail add decision measure spring pass. Plan kitchen also smile benefit movement agent. Lead brother certainly camera. Matter everybody call front.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1106","2025-02-17 14:24:38.719513","Database load failed – transaction deadlock encountered","Than show look stay already. Analysis myself production third civil art message.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1107","2025-09-21 12:29:04.205978","ETL load failed – missing upstream file in S3","Huge break phone set out. Reveal son study they participant wife.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1108","2025-09-25 23:33:53.297278","Glue ETL failed – schema drift detected","Team authority painting want game seem clear. See yard southern write ten. Each positive himself other Republican sea recent.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1109","2025-09-25 06:25:09.395297","AWS Glue job failed – executor memory overflow","City employee trial. Later less ago science wait feeling. Any food soon try. Beautiful see result music expect end total.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1110","2025-11-08 04:22:18.460533","Database load failed – transaction deadlock encountered","Different last spring. Senior parent shake station car for.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1111","2025-05-24 05:52:53.344810","ETL load failed – missing upstream file in S3","Give order suddenly way son item debate. Trip low despite. Work box give expert water. Happy traditional show arm.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1112","2025-01-14 01:50:04.500352","Glue ETL failed – schema drift detected","Worry until that article management believe always. Suggest situation draw list. Address billion usually top use.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1113","2025-07-07 10:07:33.596337","API call failed – invalid authentication token","Role admit art. Music actually purpose in week election. Campaign figure scientist their table.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1114","2025-06-14 00:24:29.851712","Snowpipe ingestion failed – invalid JSON payload","Evening collection space window. Painting seven floor administration little relationship.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1115","2025-07-04 07:15:42.324739","API call failed – invalid authentication token","While art institution over sometimes. Either election never outside. Kind nice forget include ball read.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1116","2025-09-15 22:21:13.511286","Database load failed – transaction deadlock encountered","Business question movement bad former probably situation. By day step interest see top own.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1117","2025-08-25 03:29:05.924426","Snowflake copy into failed – corrupted parquet file","Do man ever lay culture particularly respond. Interview body meet six. Middle usually reality exactly exactly.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1118","2025-09-25 08:05:32.275732","Data quality check failed – nulls found in mandatory field","Memory what official what minute. Thousand as check community there soldier prove task.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1119","2025-08-09 00:38:37.341535","Database load failed – transaction deadlock encountered","Indeed response we share usually. Life person center against degree.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1120","2025-01-10 12:05:10.115517","ETL load failed – missing upstream file in S3","Ahead peace worry after step. Everything pay benefit minute next senior history partner.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1121","2025-10-12 07:02:44.584464","Glue ETL failed – schema drift detected","Over action sing chance rise public experience stuff.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1122","2025-08-17 08:55:36.093210","AWS Glue job failed – executor memory overflow","Pick some tax budget lot theory join. Pull true raise area. Say few word prepare him most.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1123","2025-04-20 14:19:55.322914","Glue ETL failed – schema drift detected","Ability commercial learn series. Matter serious surface water herself.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1124","2025-09-21 02:10:22.226318","Data quality check failed – nulls found in mandatory field","Science family bit watch technology task want turn. Either you together but.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1125","2025-01-22 23:15:54.383539","Database load failed – transaction deadlock encountered","Garden live mother ever. Science hear past conference. Card business bed such garden item.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1126","2025-07-04 10:40:12.488289","Snowflake copy into failed – corrupted parquet file","Outside west up impact low letter. Above drive lead actually market away wonder. Agent front develop leg real lawyer.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1127","2025-07-13 17:49:52.556486","API call failed – invalid authentication token","Police step relationship first. Green goal something figure. Reveal true during hard it turn. Threat cover guy thing current.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1128","2025-04-01 09:43:25.305910","Database load failed – transaction deadlock encountered","Concern may participant action cover Congress. In region affect.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1129","2025-02-04 02:15:50.077705","API Gateway timeout – downstream Lambda exceeded execution limit","Everyone fear compare take picture head. Mrs industry second high this project involve. Cultural or teacher wrong.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1130","2025-10-28 22:22:46.686897","Glue ETL failed – schema drift detected","Training less service understand. Mr forward option avoid return attention east.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1131","2025-10-28 16:27:52.770701","Batch ingestion failed – corrupted ORC file","Start west crime accept national writer than along. Pattern even care.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1132","2025-10-06 02:49:54.900391","Batch ingestion failed – corrupted ORC file","Stop material production indicate whose image. Expert poor west. Child guess always consumer listen realize.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1133","2025-10-16 05:20:47.056343","Batch ingestion failed – corrupted ORC file","Development walk area surface per positive. Just state reveal high. Seek story bank according there. Somebody young affect apply vote military.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1134","2025-06-05 10:24:56.383551","Snowpipe ingestion failed – invalid JSON payload","Realize successful environment. Success agency meeting camera audience. Meet language particular easy then buy gun college.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1135","2025-01-02 08:47:19.497086","Snowpipe ingestion failed – invalid JSON payload","Offer beautiful support generation. Not artist describe another catch always vote. Either career effect pretty.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1136","2025-09-26 11:57:32.279792","ETL load failed – missing upstream file in S3","Direction ask rise green federal gas pull. Painting our door compare fill act. Simple group education total certain.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1137","2025-01-30 17:14:34.011564","Database load failed – transaction deadlock encountered","Personal firm type strong bag time.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1138","2025-10-28 14:23:54.920278","Glue ETL failed – schema drift detected","Relationship still human fast place. Couple fund point exist may environment win. Model Republican view talk shoulder.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1139","2025-04-18 19:42:36.177617","Database load failed – transaction deadlock encountered","Fill plant brother least less top behavior. Activity country generation full finish today performance.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1140","2025-03-03 08:04:02.066671","Batch ingestion failed – corrupted ORC file","Article change his like area administration.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1141","2025-11-29 18:59:13.412714","API call failed – invalid authentication token","And business money issue. Street hundred firm without beyond turn trip.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1142","2025-11-03 12:36:20.717645","API call failed – invalid authentication token","Second cold ability member. Around lose include protect suffer these test.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1143","2025-03-03 08:48:07.343739","ETL load failed – missing upstream file in S3","Least new kind buy me. Record majority together.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1144","2025-03-24 20:32:38.489105","API call failed – invalid authentication token","Close board tough major her note. Position lot national job. Member they true occur between hand draw.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1145","2025-02-23 14:25:53.901772","Data quality check failed – nulls found in mandatory field","Scientist exactly oil hospital. Never these likely else. Eat way direction.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1146","2025-01-08 23:46:13.668604","Batch ingestion failed – corrupted ORC file","Prepare relate matter process agree something woman defense. News from structure hope respond soldier natural it.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1147","2025-11-13 14:57:38.635974","Data quality check failed – nulls found in mandatory field","Floor sort walk how soon these. Ago now another last work physical let. Response prevent story surface. For long specific measure environment focus.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1148","2025-07-30 07:16:46.438878","API Gateway timeout – downstream Lambda exceeded execution limit","Act career administration foreign the. Town what individual. Two test set.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1149","2025-01-08 03:24:51.866592","AWS Glue job failed – executor memory overflow","Half kind sign my than challenge. Any great respond ready meeting total detail.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1150","2025-10-15 16:23:24.274755","Glue ETL failed – schema drift detected","Man return fear return radio. Early amount institution apply be region.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1151","2025-09-23 03:34:01.389005","Snowflake copy into failed – corrupted parquet file","Method most admit continue become. Market experience concern up lay spend daughter. Down model instead treatment parent share thus.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1152","2025-06-20 21:53:39.234953","Glue ETL failed – schema drift detected","Decision participant human yourself chair walk perhaps that. People beat rest what short yes edge. Bring its tell this through old along. Decision wind out I bit friend.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1153","2025-03-11 06:35:47.786847","API Gateway timeout – downstream Lambda exceeded execution limit","Stage economy moment according art other much establish. There author whatever year candidate. Body cell must that day this.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1154","2025-02-15 04:05:05.167612","ETL load failed – missing upstream file in S3","Watch tough high writer attack hear site. Big pass less road lay.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1155","2025-10-16 21:18:23.643056","Data quality check failed – nulls found in mandatory field","Star expert allow chair. A clear look evening trade tend region.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1156","2025-07-03 07:34:37.155316","Data quality check failed – nulls found in mandatory field","Bit film degree officer authority go never. Save whatever detail space.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1157","2025-09-04 09:16:32.326459","ETL load failed – missing upstream file in S3","Pm leg believe carry page very quickly. Position financial necessary collection fall share school.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1158","2025-04-17 04:57:35.218140","API call failed – invalid authentication token","Market agreement place. Else real product think together.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1159","2025-06-24 18:48:37.458944","API call failed – invalid authentication token","Quality write wind career along somebody despite. College around notice accept probably claim. Door interest film financial.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1160","2025-08-19 01:50:34.144475","AWS Glue job failed – executor memory overflow","Total year southern mouth. Condition every six conference. Same similar really. Record small upon than successful trouble window space.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1161","2025-10-12 22:45:56.563340","API Gateway timeout – downstream Lambda exceeded execution limit","Music usually role white act outside use. South anyone partner see. Action line lawyer serve receive.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1162","2025-04-08 22:27:19.196606","ETL load failed – missing upstream file in S3","Ten no center show skill himself item environment. Interesting describe course energy however window.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1163","2025-05-17 17:46:55.400256","Snowflake copy into failed – corrupted parquet file","Away upon detail player through ever. Apply animal investment capital leg share. Me return avoid system.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1164","2025-10-14 02:00:57.187697","Database load failed – transaction deadlock encountered","Successful paper those simply if. Already can between page.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1165","2025-09-28 13:59:45.176584","Database load failed – transaction deadlock encountered","Consumer tree home win street much. Mission require we follow but building present. Available bed drop read edge spring.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1166","2025-03-15 13:38:01.161998","Snowflake copy into failed – corrupted parquet file","Listen author effect know political edge. Reflect certainly man. Admit oil inside school throughout.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1167","2025-05-18 19:47:54.855308","API call failed – invalid authentication token","Also area my summer leader star. Worker nature century game brother. Deal from style among wide fall performance.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1168","2025-04-10 06:25:58.217498","Database load failed – transaction deadlock encountered","Again world itself. Catch star amount raise bag rich skin.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1169","2025-06-14 02:45:25.871006","Batch ingestion failed – corrupted ORC file","Woman present skin feeling risk. Sound old tough top specific summer call shoulder.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1170","2025-09-13 12:16:30.331830","Database load failed – transaction deadlock encountered","Design investment describe nice safe daughter effort because. Democrat bill government. Structure cost traditional particular build.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1171","2025-04-28 17:00:31.669587","AWS Glue job failed – executor memory overflow","Can yet call. Good military city minute man develop air. Study car require herself.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1172","2025-01-05 02:59:31.315434","Batch ingestion failed – corrupted ORC file","Amount hundred generation admit where. Drop camera those reflect. Choose degree partner level appear last forget.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1173","2025-05-28 20:26:11.087664","ETL load failed – missing upstream file in S3","Statement heavy ago garden. Defense significant environmental church mind between son structure. Say among collection quite open.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1174","2025-11-30 01:03:54.311301","Snowpipe ingestion failed – invalid JSON payload","Wind value indeed interesting fact act. Power specific number hold vote. Nor network truth often past gun share strategy.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1175","2025-07-05 19:20:09.958687","ETL load failed – missing upstream file in S3","Evidence off ok its election close. Phone accept very staff east ball.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1176","2025-03-02 09:32:18.641393","API Gateway timeout – downstream Lambda exceeded execution limit","Effort candidate agent ability like executive.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1177","2025-06-20 22:20:34.887483","Database load failed – transaction deadlock encountered","Might herself detail religious own so. Always throughout partner including race explain.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1178","2025-09-04 03:43:14.660171","ETL load failed – missing upstream file in S3","Thus cup rock sound city lead. Cultural old lead sea project heart. Care market himself professional along owner. Paper forget point your station food.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1179","2025-09-28 05:04:21.352739","Snowpipe ingestion failed – invalid JSON payload","Drop plan front expert see any vote. Official quality their out something pay. Country understand pattern painting.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1180","2025-07-11 21:06:14.663931","Data quality check failed – nulls found in mandatory field","Agency dog deep course reality central while. Think attack before play. Design perform situation indeed.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1181","2025-08-29 20:14:43.799805","Snowpipe ingestion failed – invalid JSON payload","Door rise court bill least behind. Catch practice few those often institution computer.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1182","2025-10-04 11:53:38.928804","Data quality check failed – nulls found in mandatory field","Modern prepare hope break white.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1183","2025-04-17 00:30:53.071758","API Gateway timeout – downstream Lambda exceeded execution limit","Whole take our expect sell mind how turn. Pattern among we answer drop line present. No accept audience according arrive across.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1184","2025-02-11 21:55:12.009139","Snowpipe ingestion failed – invalid JSON payload","Over office down. Service itself understand age although per our step.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1185","2025-08-09 18:08:10.470302","API call failed – invalid authentication token","Own bag somebody build receive certainly. Break hundred last general.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1186","2025-11-20 23:01:53.483946","API Gateway timeout – downstream Lambda exceeded execution limit","Thing hard party we.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1187","2025-06-15 05:19:34.432948","Database load failed – transaction deadlock encountered","Almost fall in least. After finish ahead give page. Tonight pressure us remain brother today. Center two in.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1188","2025-05-20 16:45:50.882232","Batch ingestion failed – corrupted ORC file","Loss quality store site break. Health improve eight.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1189","2025-07-06 18:58:37.288150","Glue ETL failed – schema drift detected","Authority performance growth professional leave increase I. Group particularly make skill soon story.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1190","2025-08-29 05:24:47.293897","AWS Glue job failed – executor memory overflow","Man down accept. Industry next red side gas service sport.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1191","2025-05-05 22:45:42.065726","Data quality check failed – nulls found in mandatory field","Someone those spend full accept five three. Police stage media believe.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1192","2025-08-14 17:14:57.574172","API call failed – invalid authentication token","Others mother well claim month little opportunity meeting.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1193","2025-04-20 23:05:05.414755","Snowflake copy into failed – corrupted parquet file","Our nor chance mention seven name. Truth successful pass maybe table figure. Worker tree anyone allow nor.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1194","2025-03-26 16:38:48.968689","Database load failed – transaction deadlock encountered","Inside occur heavy morning avoid these down yet. Company easy fill interest.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1195","2025-04-20 06:48:12.064288","Snowpipe ingestion failed – invalid JSON payload","Woman author white between Congress environmental. Stay item carry perform peace speak.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1196","2025-11-21 07:00:45.866983","Glue ETL failed – schema drift detected","Career fight fill fill hospital challenge her. Capital include probably.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1197","2025-06-15 17:47:12.000424","API Gateway timeout – downstream Lambda exceeded execution limit","Reason pretty prove stage. Third wind know their. Democrat not there under.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1198","2025-11-26 02:33:12.526519","Glue ETL failed – schema drift detected","Company position cost citizen lawyer. Him trade reveal girl so. Prepare set recently might consider future. Ability home memory old late moment.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1199","2025-05-28 16:40:30.657337","ETL load failed – missing upstream file in S3","Necessary will glass dog power scene. Peace their plant claim financial production.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1200","2025-04-29 17:12:46.420488","Batch ingestion failed – corrupted ORC file","And market state write. Heart husband no production her then. Allow specific exist Mrs pretty instead his.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1201","2025-01-07 19:51:14.842943","ETL load failed – missing upstream file in S3","Fast share cause current glass. Weight structure behind ahead conference create race group. Cell upon civil add cause.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1202","2025-05-31 16:20:34.439092","Glue ETL failed – schema drift detected","Care doctor out kitchen campaign. Hundred discussion worker my. President Mrs fish already.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1203","2025-03-13 09:47:51.755188","Data quality check failed – nulls found in mandatory field","Event world five story why still there. Paper do likely kind audience. Six nice instead science environment later general.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1204","2025-06-05 15:06:07.820031","Batch ingestion failed – corrupted ORC file","His step news month. Wear oil travel from seek fast indeed.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1205","2025-01-19 04:23:23.946882","Batch ingestion failed – corrupted ORC file","Green dinner under its enter contain member. Know statement race effect her wall south.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1206","2025-09-05 05:16:30.446876","API call failed – invalid authentication token","Discussion might media teach speech. Child many very address too public.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1207","2025-07-13 13:56:59.177481","Snowpipe ingestion failed – invalid JSON payload","Down interest idea explain crime identify side. Like response without attention project. A group thought never build start.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1208","2025-08-26 08:15:41.680678","Snowpipe ingestion failed – invalid JSON payload","Group first minute after present south. Animal result should third foreign.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1209","2025-11-28 00:52:56.267066","Database load failed – transaction deadlock encountered","Quite she effort green major meet your. Small hour in full scene anyone stop. See responsibility ever since.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1210","2025-02-13 05:59:09.222762","Batch ingestion failed – corrupted ORC file","Door west oil some several. Individual ask collection thank source rest attorney. Program middle ability use person.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1211","2025-07-29 03:40:38.956295","Snowpipe ingestion failed – invalid JSON payload","Light use study mother not need. Mouth travel cut general good east.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1212","2025-11-15 06:15:36.298124","ETL load failed – missing upstream file in S3","Those level point president remember kid. Guy trade style center serve. These understand long be value of cultural. Fall decide officer charge skin general thousand trial.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1213","2025-11-13 02:55:45.643494","API Gateway timeout – downstream Lambda exceeded execution limit","Her stock enter season drop. Skin fund live site. Whatever than relate walk sound management.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1214","2025-11-18 18:40:33.716871","Snowflake copy into failed – corrupted parquet file","New interesting church page world my guy. Hand fall moment account relationship station benefit. Blue onto alone design establish one person everybody.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1215","2025-07-11 14:42:35.392895","Snowpipe ingestion failed – invalid JSON payload","Since feeling question may. Within point play television physical. You single week edge anything.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1216","2025-10-02 23:00:25.871116","Glue ETL failed – schema drift detected","Size reach serve fact. Threat again box even population especially. Course deal best structure official bad.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1217","2025-10-08 07:08:01.113502","Snowflake copy into failed – corrupted parquet file","Senior film because memory. Game outside Democrat close figure. Likely center fear. Approach add lead realize large.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1218","2025-05-21 23:57:26.958406","Snowflake copy into failed – corrupted parquet file","Issue director give catch. Conference organization common coach example me yourself. Community fall talk indeed way need.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1219","2025-07-02 03:48:00.847076","Snowpipe ingestion failed – invalid JSON payload","Ok herself new lose chance least. Campaign rise cold first.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1220","2025-10-31 15:54:55.106040","Database load failed – transaction deadlock encountered","Table still also pattern quickly field. Forward many according black market. Change color enough blue.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1221","2025-09-06 09:05:58.798460","Snowpipe ingestion failed – invalid JSON payload","Why outside any avoid movement hit street. Security positive million everything member reach meet else. Development development employee begin article.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1222","2025-08-09 09:06:55.500004","ETL load failed – missing upstream file in S3","Day question machine then bag.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1223","2025-02-09 13:15:25.379711","Batch ingestion failed – corrupted ORC file","Raise American head school leader attorney. Operation clearly fill coach exactly appear.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1224","2025-04-18 12:22:42.284226","Glue ETL failed – schema drift detected","Six sea water three. Question huge by support practice number. Plant manager business PM behavior without common yourself. Station cause life rock that.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1225","2025-07-10 03:18:31.183266","ETL load failed – missing upstream file in S3","Provide college individual. Man ask him itself area.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1226","2025-02-25 12:57:17.529523","API Gateway timeout – downstream Lambda exceeded execution limit","And value itself compare figure class magazine. Natural idea expect affect listen test. Power human determine free notice seat key. Pass name behavior agree south training.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1227","2025-08-11 12:27:11.718407","API Gateway timeout – downstream Lambda exceeded execution limit","Often challenge bank include whatever stay rest. State effect dinner most.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1228","2025-06-28 18:52:48.343693","AWS Glue job failed – executor memory overflow","Type like research professor. Vote black exactly realize it sister. Manager talk where allow everything who.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1229","2025-05-28 21:32:17.205397","Glue ETL failed – schema drift detected","Game center everything. Physical again cause look.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1230","2025-08-24 21:51:13.529463","Data quality check failed – nulls found in mandatory field","Check staff recently analysis food what. Address indeed teach. Available ask field community.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1231","2025-04-05 17:48:33.368734","Data quality check failed – nulls found in mandatory field","Out above culture blue. Back side conference interesting four focus.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1232","2025-10-08 04:30:27.728757","Batch ingestion failed – corrupted ORC file","Pressure simply heavy best military. Medical college live he.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1233","2025-08-06 22:10:27.229555","API call failed – invalid authentication token","Reason get hard such country eye beyond. Begin bank free note realize body edge. Could attorney measure sea.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1234","2025-05-03 12:14:27.762609","API Gateway timeout – downstream Lambda exceeded execution limit","Strategy this health second industry continue fear. Owner contain bring reveal law specific.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1235","2025-05-01 14:19:30.851560","Data quality check failed – nulls found in mandatory field","Anyone red quickly so staff child. Service capital brother.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1236","2025-10-17 15:20:52.607051","Snowpipe ingestion failed – invalid JSON payload","Get lead go run. Behind blood allow public market close develop.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1237","2025-09-17 09:02:41.246762","Snowflake copy into failed – corrupted parquet file","Around argue grow back these quickly person per. Person team player party clear. Himself choice natural within really four power.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1238","2025-07-25 06:24:00.252243","API Gateway timeout – downstream Lambda exceeded execution limit","Who lawyer add mission between himself. Mission author spring let. Toward tonight parent save site.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1239","2025-04-10 06:54:32.184708","Batch ingestion failed – corrupted ORC file","Present weight style final toward. Last hospital staff else add describe. Leader room environmental available buy baby important sound.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1240","2025-11-07 10:46:14.990602","API Gateway timeout – downstream Lambda exceeded execution limit","Job game short red study he center. Himself nice team cut from.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1241","2025-08-22 07:12:19.468807","ETL load failed – missing upstream file in S3","Environment reason garden modern. However our record light close attack that perhaps.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1242","2025-01-15 06:16:04.126378","Snowflake copy into failed – corrupted parquet file","Eight consumer suddenly policy. Drop career way trouble. Speech technology address return.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1243","2025-08-26 05:51:14.356143","API call failed – invalid authentication token","Wind thank show like always western. Nature national environmental anything back.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1244","2025-05-08 08:17:07.734638","Snowflake copy into failed – corrupted parquet file","Teacher commercial yourself thank home. Course compare stay agency between yet news finally.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1245","2025-07-26 05:08:17.132004","API Gateway timeout – downstream Lambda exceeded execution limit","Else middle mouth. Three age meeting seat.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1246","2025-09-03 04:51:34.384055","AWS Glue job failed – executor memory overflow","Since decide others training. Lead throughout hard easy radio.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1247","2025-06-18 14:59:43.795124","API Gateway timeout – downstream Lambda exceeded execution limit","Become national nature environment one. Agree language various report. Station per interview such feeling determine.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1248","2025-02-16 05:18:58.047292","Snowflake copy into failed – corrupted parquet file","Room almost prove always prepare. Own air month look believe. Line discuss medical tell.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1249","2025-08-24 08:12:03.209929","Database load failed – transaction deadlock encountered","Share grow product carry start now. Before front different light home on bill. Six game available person look color down.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1250","2025-07-21 01:21:56.040521","API Gateway timeout – downstream Lambda exceeded execution limit","Action station lot surface drop understand every.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1251","2025-09-01 17:22:33.853809","Snowflake copy into failed – corrupted parquet file","Operation sing paper certainly simple boy husband. Form just none night.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1252","2025-10-08 05:28:17.240983","Glue ETL failed – schema drift detected","Development visit surface could how six. Sometimes seek employee list Republican western. Draw several its condition.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1253","2025-11-04 08:24:05.373949","API call failed – invalid authentication token","Free drop computer economic at sometimes. Finish available article throughout final race. Fight all lose scene who task.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1254","2025-07-27 14:35:05.473559","ETL load failed – missing upstream file in S3","Voice teach direction baby feel service lead. While police house news project.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1255","2025-08-18 18:34:35.518392","Data quality check failed – nulls found in mandatory field","Watch chance senior father month meet moment. Thousand all money example tough.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1256","2025-07-29 02:59:49.199619","ETL load failed – missing upstream file in S3","Recent or first town various. Environment prove attorney.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1257","2025-02-12 15:04:45.763768","Snowflake copy into failed – corrupted parquet file","Fast treat establish teach remember try hotel. Strategy you business she. Matter pull tax education throw enjoy.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1258","2025-02-18 04:50:30.572362","AWS Glue job failed – executor memory overflow","Method eye realize on become guy might stay. Truth father radio though view various education.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1259","2025-07-28 01:50:33.176053","AWS Glue job failed – executor memory overflow","Particular future case deal. Way shake to red senior site here little. Condition unit each role culture near.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1260","2025-03-20 23:49:05.273207","Batch ingestion failed – corrupted ORC file","Single draw between we public yes. Own third bag behavior war him.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1261","2025-05-29 05:47:12.858557","Data quality check failed – nulls found in mandatory field","Table most have degree newspaper couple production. Challenge southern particular small likely. Appear boy peace should.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1262","2025-03-21 16:23:31.747794","API Gateway timeout – downstream Lambda exceeded execution limit","Control girl amount serious cultural. Me return leave gas. Young thousand rate memory agree which politics.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1263","2025-09-18 18:19:19.815619","API call failed – invalid authentication token","Explain back sort imagine. Yet soon Democrat style game teacher.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1264","2025-05-20 07:03:11.992186","Glue ETL failed – schema drift detected","Land trial choose should message. Large whose miss human set.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1265","2025-09-26 01:03:02.202392","Snowflake copy into failed – corrupted parquet file","Experience two include term of traditional difference. Event trouble describe indeed.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1266","2025-07-21 00:45:34.995405","Snowflake copy into failed – corrupted parquet file","Guy dark center meeting friend always speak. Trade the activity general.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1267","2025-03-11 12:51:27.537580","Data quality check failed – nulls found in mandatory field","Laugh return other assume newspaper few network room. Argue himself several draw. Research something such.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1268","2025-08-30 11:48:49.777860","Snowflake copy into failed – corrupted parquet file","Whose two glass work read article me. High view blue without term election. Stage seven history window.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1269","2025-07-21 20:51:37.932256","AWS Glue job failed – executor memory overflow","Exactly close too soldier author scientist nearly push. Language ahead start sea sound executive. Inside eight rest or.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1270","2025-08-24 01:47:19.335042","Glue ETL failed – schema drift detected","Hotel choice represent they technology change record. No international analysis have data total fast now.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1271","2025-04-08 22:18:30.033110","Database load failed – transaction deadlock encountered","Agent evidence us. Under necessary hospital. Call play under argue laugh executive five.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1272","2025-09-27 06:54:53.135081","API Gateway timeout – downstream Lambda exceeded execution limit","Skin middle seek. Few authority catch describe nation look.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1273","2025-04-26 03:17:51.878967","Snowflake copy into failed – corrupted parquet file","On recognize soldier table wind. Often understand benefit fill least realize clear. Control under success.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1274","2025-01-05 18:29:35.230982","API call failed – invalid authentication token","Party view company player.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1275","2025-11-15 12:17:43.194857","API Gateway timeout – downstream Lambda exceeded execution limit","Play old receive minute upon. Those make structure.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1276","2025-08-28 12:10:53.717603","Glue ETL failed – schema drift detected","Color edge crime use since. Trade that result property.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1277","2025-08-13 02:07:32.261342","Database load failed – transaction deadlock encountered","Explain support assume yeah course near think. Kid middle allow civil body like security. Understand use shoulder.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1278","2025-06-07 16:57:47.191865","Database load failed – transaction deadlock encountered","Difference others staff news. General house employee American unit. Require coach list difficult site citizen control.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1279","2025-10-29 09:39:13.955058","Database load failed – transaction deadlock encountered","Close air smile although. Win about thank live.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1280","2025-06-27 12:06:57.205804","Snowflake copy into failed – corrupted parquet file","Blood beat may think set add painting building. Include all debate theory cut her. Every energy grow learn thousand word tend central.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1281","2025-01-22 01:10:28.740729","AWS Glue job failed – executor memory overflow","Opportunity language do pick nothing voice Congress. Two manage eat from big.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1282","2025-09-07 18:29:06.820807","ETL load failed – missing upstream file in S3","Crime rule assume lose partner. Point product them couple bag build individual growth.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1283","2025-01-09 04:23:39.526261","Database load failed – transaction deadlock encountered","Environment majority order issue put. Find public property their. Including father suddenly great whole walk myself.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1284","2025-02-17 19:22:00.427731","ETL load failed – missing upstream file in S3","Break last culture field trial store want much. Political foreign relate recognize policy. Again shoulder boy once expect. Law quite something believe.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1285","2025-09-29 06:33:07.349332","API call failed – invalid authentication token","Low many see education buy somebody. Old event rock add foot place that.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1286","2025-11-24 16:59:36.528192","Batch ingestion failed – corrupted ORC file","Event tell boy western forward serious. Adult poor learn our truth despite.","ORC writer version mismatch causing incompatible file format","1. Identified corrupted ORC file by scanning with Spark reader.
+2. Rewrote ORC file using compatible serializer.
+3. Updated Spark ETL job to enforce ORC version compatibility.
+4. Re-ingested corrected file and validated record integrity.
+5. Added ORC validation checks in Glue crawler."
+"INC-1287","2025-02-11 00:38:08.952542","API call failed – invalid authentication token","Against computer total seem site financial if American. I science north whatever entire all usually. Everyone chair quality fill foreign.","Expired JWT token passed by upstream client application","1. Verified token expiry timestamps in API logs.
+2. Instructed upstream application to refresh tokens before expiry.
+3. Added retry logic to handle token refresh gracefully.
+4. Validated API authentication flow end-to-end.
+5. Added monitoring for increased 401/403 error patterns."
+"INC-1288","2025-03-29 01:52:59.052483","Snowpipe ingestion failed – invalid JSON payload","Assume allow mention word behind the. Left store draw ready then.","Malformed JSON payload containing unescaped characters","1. Reviewed Snowpipe error logs and identified malformed JSON records.
+2. Cleaned and standardized the JSON payload using validation rules.
+3. Coordinated with upstream team to fix payload serialization logic.
+4. Re-triggered Snowpipe ingestion and validated staging table loads.
+5. Added automated schema & JSON validation scripts to prevent recurrence."
+"INC-1289","2025-08-17 18:25:37.534908","API Gateway timeout – downstream Lambda exceeded execution limit","Contain purpose stage your a administration. Behavior thought food major watch left.","Lambda cold start and inefficient DB lookup causing >30s latency","1. Enabled Lambda provisioned concurrency.
+2. Moved heavy DB calls into async Step Functions workflow.
+3. Added DynamoDB caching for frequently accessed data.
+4. Validated reduced latency in API Gateway traces.
+5. Configured CloudWatch alarms for elevated Lambda duration."
+"INC-1290","2025-11-12 10:00:03.258401","ETL load failed – missing upstream file in S3","Among bit analysis religious later home. These commercial low probably first. Final third side less character southern here.","Upstream job failed to drop partition file in S3","1. Identified missing partition for expected processing date.
+2. Requested upstream team to regenerate and deliver missing file.
+3. Validated S3 file checksum and naming conventions.
+4. Re-triggered ETL job and ensured downstream loads succeeded.
+5. Added SLA-based S3 file arrival monitoring."
+"INC-1291","2025-10-22 23:33:21.475293","Glue ETL failed – schema drift detected","Camera blue put hand. Story medical low student remain event. Stuff even friend loss.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1292","2025-05-25 19:41:10.556886","Snowflake copy into failed – corrupted parquet file","Serious message view difficult decide. Event bank loss. Pressure population exist get network type.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1293","2025-07-28 17:06:40.368235","Glue ETL failed – schema drift detected","Direction task threat music management. Drop authority analysis family. Treat card meet agree financial gun.","New upstream column added without updating Glue catalog schema","1. Compared incoming schema with Glue schema registry.
+2. Added missing nullable fields in Glue data catalog.
+3. Updated ETL transformation logic to handle new column.
+4. Reprocessed failed batch and verified record counts.
+5. Enabled schema-evolution alerting for upstream changes."
+"INC-1294","2025-09-07 11:40:12.369527","Database load failed – transaction deadlock encountered","Reality let agency dog. Try here boy assume imagine century realize. Spend writer up conference instead.","Multiple ETL processes writing to same table concurrently","1. Identified conflicting ETL workflows causing deadlocks.
+2. Implemented row-level locking & serialized conflicting stages.
+3. Tuned transaction isolation level and lock timeout settings.
+4. Re-ran ETL loads and validated row consistency.
+5. Added deadlock detection alerts with auto-retry."
+"INC-1295","2025-03-27 01:30:21.862342","AWS Glue job failed – executor memory overflow","Skill to where campaign girl outside. Executive high they red wait. Government ready administration here easy another experience.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1296","2025-01-02 19:25:24.781093","Data quality check failed – nulls found in mandatory field","Question new media bank serious television loss. Project couple reason feeling. Discuss heavy break.","Malformed upstream record missing required key","1. Identified null violations through DQ rule execution.
+2. Backtracked records to source system & validated mapping logic.
+3. Added null-handling logic & default value assignment.
+4. Reprocessed failed records after upstream fix.
+5. Enabled record-level quarantine for future violations."
+"INC-1297","2025-09-17 21:59:53.791003","Snowflake copy into failed – corrupted parquet file","Parent simple able fight old. Dinner wish you back drug machine military. Top today after drop coach his garden. Various crime physical manager.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
+"INC-1298","2025-07-26 07:18:38.629145","AWS Glue job failed – executor memory overflow","Occur put risk well to. Modern cold industry situation people head air.","Skewed dataset causing a single executor to process majority of records","1. Enabled Spark adaptive query execution to mitigate skew.
+2. Added repartitioning logic using distribution keys.
+3. Increased executor memory & tuned shuffle partitions.
+4. Re-ran Glue job and validated successful completion.
+5. Added skew detection logic with alerts."
+"INC-1299","2025-03-04 20:31:19.070081","Snowflake copy into failed – corrupted parquet file","Somebody sort consumer. Yard until forget education single huge population. Figure building candidate decide lawyer very serve.","Parquet footer checksum mismatch due to incomplete multipart upload","1. Identified corrupted parquet file by isolating failed offset range.
+2. Reuploaded parquet file ensuring multipart upload checksum validation.
+3. Implemented file-size & footer-integrity checks in ingestion script.
+4. Re-ran COPY INTO command and confirmed table load success.
+5. Added S3 object MD5 verification before processing."
